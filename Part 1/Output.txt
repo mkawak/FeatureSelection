@@ -1,0 +1,233 @@
+/Users/majd/PycharmProjects/pythonProject/venv/bin/python /Users/majd/PycharmProjects/pythonProject/main.py 
+On the  1  level of the search tree
+
+--Considering adding the  1  feature with accuracy of  85
+--Considering adding the  2  feature with accuracy of  31
+--Considering adding the  3  feature with accuracy of  22
+--Considering adding the  4  feature with accuracy of  29
+--Considering adding the  5  feature with accuracy of  24
+--Considering adding the  6  feature with accuracy of  38
+--Considering adding the  7  feature with accuracy of  45
+--Considering adding the  8  feature with accuracy of  30
+--Considering adding the  9  feature with accuracy of  65
+--Considering adding the  10  feature with accuracy of  95
+
+On level  1  I added feature  10  to current set with accuracy of  95
+Current Set of Features:  [10]
+---------------------------------------------
+On the  2  level of the search tree
+
+--Considering adding the  1  feature with accuracy of  95
+--Considering adding the  2  feature with accuracy of  21
+--Considering adding the  3  feature with accuracy of  53
+--Considering adding the  4  feature with accuracy of  24
+--Considering adding the  5  feature with accuracy of  63
+--Considering adding the  6  feature with accuracy of  38
+--Considering adding the  7  feature with accuracy of  32
+--Considering adding the  8  feature with accuracy of  62
+--Considering adding the  9  feature with accuracy of  76
+
+On level  2  I added feature  1  to current set with accuracy of  95
+Current Set of Features:  [10, 1]
+---------------------------------------------
+On the  3  level of the search tree
+
+--Considering adding the  2  feature with accuracy of  95
+--Considering adding the  3  feature with accuracy of  38
+--Considering adding the  4  feature with accuracy of  57
+--Considering adding the  5  feature with accuracy of  32
+--Considering adding the  6  feature with accuracy of  89
+--Considering adding the  7  feature with accuracy of  54
+--Considering adding the  8  feature with accuracy of  60
+--Considering adding the  9  feature with accuracy of  87
+
+On level  3  I added feature  2  to current set with accuracy of  95
+Current Set of Features:  [10, 1, 2]
+---------------------------------------------
+On the  4  level of the search tree
+
+--Considering adding the  3  feature with accuracy of  67
+--Considering adding the  4  feature with accuracy of  74
+--Considering adding the  5  feature with accuracy of  49
+--Considering adding the  6  feature with accuracy of  87
+--Considering adding the  7  feature with accuracy of  16
+--Considering adding the  8  feature with accuracy of  96
+--Considering adding the  9  feature with accuracy of  61
+
+On level  4  I added feature  8  to current set with accuracy of  96
+Current Set of Features:  [10, 1, 2, 8]
+---------------------------------------------
+On the  5  level of the search tree
+
+--Considering adding the  3  feature with accuracy of  4
+--Considering adding the  4  feature with accuracy of  33
+--Considering adding the  5  feature with accuracy of  54
+--Considering adding the  6  feature with accuracy of  85
+--Considering adding the  7  feature with accuracy of  35
+--Considering adding the  9  feature with accuracy of  36
+
+On level  5  I added feature  6  to current set with accuracy of  85
+Current Set of Features:  [10, 1, 2, 8, 6]
+---------------------------------------------
+On the  6  level of the search tree
+
+--Considering adding the  3  feature with accuracy of  11
+--Considering adding the  4  feature with accuracy of  48
+--Considering adding the  5  feature with accuracy of  50
+--Considering adding the  7  feature with accuracy of  1
+--Considering adding the  9  feature with accuracy of  61
+
+On level  6  I added feature  9  to current set with accuracy of  61
+Current Set of Features:  [10, 1, 2, 8, 6, 9]
+---------------------------------------------
+On the  7  level of the search tree
+
+--Considering adding the  3  feature with accuracy of  94
+--Considering adding the  4  feature with accuracy of  85
+--Considering adding the  5  feature with accuracy of  83
+--Considering adding the  7  feature with accuracy of  85
+
+On level  7  I added feature  3  to current set with accuracy of  94
+Current Set of Features:  [10, 1, 2, 8, 6, 9, 3]
+---------------------------------------------
+On the  8  level of the search tree
+
+--Considering adding the  4  feature with accuracy of  98
+--Considering adding the  5  feature with accuracy of  38
+--Considering adding the  7  feature with accuracy of  82
+
+On level  8  I added feature  4  to current set with accuracy of  98
+Current Set of Features:  [10, 1, 2, 8, 6, 9, 3, 4]
+---------------------------------------------
+On the  9  level of the search tree
+
+--Considering adding the  5  feature with accuracy of  56
+--Considering adding the  7  feature with accuracy of  90
+
+On level  9  I added feature  7  to current set with accuracy of  90
+Current Set of Features:  [10, 1, 2, 8, 6, 9, 3, 4, 7]
+---------------------------------------------
+On the  10  level of the search tree
+
+--Considering adding the  5  feature with accuracy of  93
+
+On level  10  I added feature  5  to current set with accuracy of  93
+Current Set of Features:  [10, 1, 2, 8, 6, 9, 3, 4, 7, 5]
+---------------------------------------------
+On the  10  level of the search tree
+
+--Considering adding the  10  feature with accuracy of  30
+--Considering adding the  9  feature with accuracy of  39
+--Considering adding the  8  feature with accuracy of  24
+--Considering adding the  7  feature with accuracy of  85
+--Considering adding the  6  feature with accuracy of  71
+--Considering adding the  5  feature with accuracy of  5
+--Considering adding the  4  feature with accuracy of  16
+--Considering adding the  3  feature with accuracy of  1
+--Considering adding the  2  feature with accuracy of  89
+--Considering adding the  1  feature with accuracy of  37
+
+On level  10  I removed feature  2  to current set with accuracy of  89
+Current Set of Features:  [1, 3, 4, 5, 6, 7, 8, 9, 10]
+---------------------------------------------
+On the  9  level of the search tree
+
+--Considering adding the  10  feature with accuracy of  32
+--Considering adding the  9  feature with accuracy of  64
+--Considering adding the  8  feature with accuracy of  20
+--Considering adding the  7  feature with accuracy of  1
+--Considering adding the  6  feature with accuracy of  19
+--Considering adding the  5  feature with accuracy of  61
+--Considering adding the  4  feature with accuracy of  28
+--Considering adding the  3  feature with accuracy of  18
+--Considering adding the  1  feature with accuracy of  17
+
+On level  9  I removed feature  9  to current set with accuracy of  64
+Current Set of Features:  [1, 3, 4, 5, 6, 7, 8, 10]
+---------------------------------------------
+On the  8  level of the search tree
+
+--Considering adding the  10  feature with accuracy of  57
+--Considering adding the  8  feature with accuracy of  12
+--Considering adding the  7  feature with accuracy of  81
+--Considering adding the  6  feature with accuracy of  84
+--Considering adding the  5  feature with accuracy of  21
+--Considering adding the  4  feature with accuracy of  75
+--Considering adding the  3  feature with accuracy of  88
+--Considering adding the  1  feature with accuracy of  72
+
+On level  8  I removed feature  3  to current set with accuracy of  88
+Current Set of Features:  [1, 4, 5, 6, 7, 8, 10]
+---------------------------------------------
+On the  7  level of the search tree
+
+--Considering adding the  10  feature with accuracy of  97
+--Considering adding the  8  feature with accuracy of  55
+--Considering adding the  7  feature with accuracy of  90
+--Considering adding the  6  feature with accuracy of  72
+--Considering adding the  5  feature with accuracy of  65
+--Considering adding the  4  feature with accuracy of  44
+--Considering adding the  1  feature with accuracy of  2
+
+On level  7  I removed feature  10  to current set with accuracy of  97
+Current Set of Features:  [1, 4, 5, 6, 7, 8]
+---------------------------------------------
+On the  6  level of the search tree
+
+--Considering adding the  8  feature with accuracy of  11
+--Considering adding the  7  feature with accuracy of  89
+--Considering adding the  6  feature with accuracy of  68
+--Considering adding the  5  feature with accuracy of  59
+--Considering adding the  4  feature with accuracy of  10
+--Considering adding the  1  feature with accuracy of  42
+
+On level  6  I removed feature  7  to current set with accuracy of  89
+Current Set of Features:  [1, 4, 5, 6, 8]
+---------------------------------------------
+On the  5  level of the search tree
+
+--Considering adding the  8  feature with accuracy of  24
+--Considering adding the  6  feature with accuracy of  6
+--Considering adding the  5  feature with accuracy of  75
+--Considering adding the  4  feature with accuracy of  35
+--Considering adding the  1  feature with accuracy of  39
+
+On level  5  I removed feature  5  to current set with accuracy of  75
+Current Set of Features:  [1, 4, 6, 8]
+---------------------------------------------
+On the  4  level of the search tree
+
+--Considering adding the  8  feature with accuracy of  67
+--Considering adding the  6  feature with accuracy of  5
+--Considering adding the  4  feature with accuracy of  69
+--Considering adding the  1  feature with accuracy of  94
+
+On level  4  I removed feature  1  to current set with accuracy of  94
+Current Set of Features:  [4, 6, 8]
+---------------------------------------------
+On the  3  level of the search tree
+
+--Considering adding the  8  feature with accuracy of  82
+--Considering adding the  6  feature with accuracy of  41
+--Considering adding the  4  feature with accuracy of  36
+
+On level  3  I removed feature  8  to current set with accuracy of  82
+Current Set of Features:  [4, 6]
+---------------------------------------------
+On the  2  level of the search tree
+
+--Considering adding the  6  feature with accuracy of  81
+--Considering adding the  4  feature with accuracy of  6
+
+On level  2  I removed feature  6  to current set with accuracy of  81
+Current Set of Features:  [4]
+---------------------------------------------
+On the  1  level of the search tree
+
+--Considering adding the  4  feature with accuracy of  87
+
+On level  1  I removed feature  4  to current set with accuracy of  87
+Current Set of Features:  []
+---------------------------------------------
+
+Process finished with exit code 0

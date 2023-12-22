@@ -1,0 +1,13 @@
+
+- Group: 44 
+- Student Name1: Abhinav Allam SID: 862200322 Lecture Session: 002
+- Student Name2: Jacqueline Gardea SID: 862305608 Lecture Session: 001
+- Student Name3: Majd Kawak SID: 862273310 Lecture Session: 001
+- Student Name4: Rovin Soriano SID: 862149089 Lecture Session: 001
+- DatasetID: 44
+- Small Dataset Results:
+- Forward: Feature Subset: {3, 5}, Acc: 0.92
+- Backward: Feature Subset: {2, 4, 5, 7, 10} Acc: 0.82
+- Large Dataset Results:
+- Forward: Feature Subset: {27, 1}, Acc: 0.95
+- Backward: Feature Subset: {} Default Rate, Acc: 0.81

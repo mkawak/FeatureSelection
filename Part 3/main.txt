@@ -1,0 +1,1137 @@
+Welcome to Abhinav's, Majd's, Jacqueline's and Rovin's Feature Selection Algorithms.
+Type in the name of the file to test: large-test-dataset.txt
+File processed successfully.
+Type the number of the algorithm you want to run.
+1- Forward Selection.
+2- Backward Elimination.
+3- Random Combinations.
+2
+
+This dataset has 40 features (not including the class attribute), with 1000 instances.
+Please wait while I normalize the data...
+
+Do you want to Z Normalize the data values? (y/n): n
+
+Running nearest neighbor with all the features, using “leaving-one-out” evaluation, we get an accuracy of  69.39999999999999 %
+---------------------------------------------
+Beginning search (Backward Feature Elimination).
+---------------------------------------------
+On level  40  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  70.3 %
+--Considering removing feature number  39  gets us a total accuracy of  69.39999999999999 %
+--Considering removing feature number  38  gets us a total accuracy of  69.3 %
+--Considering removing feature number  37  gets us a total accuracy of  69.5 %
+--Considering removing feature number  36  gets us a total accuracy of  69.6 %
+--Considering removing feature number  35  gets us a total accuracy of  69.0 %
+--Considering removing feature number  34  gets us a total accuracy of  70.1 %
+--Considering removing feature number  33  gets us a total accuracy of  70.3 %
+--Considering removing feature number  32  gets us a total accuracy of  69.19999999999999 %
+--Considering removing feature number  31  gets us a total accuracy of  68.60000000000001 %
+--Considering removing feature number  30  gets us a total accuracy of  68.8 %
+--Considering removing feature number  29  gets us a total accuracy of  70.19999999999999 %
+--Considering removing feature number  28  gets us a total accuracy of  68.8 %
+--Considering removing feature number  27  gets us a total accuracy of  69.8 %
+--Considering removing feature number  26  gets us a total accuracy of  69.1 %
+--Considering removing feature number  25  gets us a total accuracy of  68.2 %
+--Considering removing feature number  24  gets us a total accuracy of  69.69999999999999 %
+--Considering removing feature number  23  gets us a total accuracy of  69.19999999999999 %
+--Considering removing feature number  22  gets us a total accuracy of  69.6 %
+--Considering removing feature number  21  gets us a total accuracy of  70.39999999999999 %
+--Considering removing feature number  20  gets us a total accuracy of  70.0 %
+--Considering removing feature number  19  gets us a total accuracy of  69.19999999999999 %
+--Considering removing feature number  18  gets us a total accuracy of  69.0 %
+--Considering removing feature number  17  gets us a total accuracy of  68.60000000000001 %
+--Considering removing feature number  16  gets us a total accuracy of  70.1 %
+--Considering removing feature number  15  gets us a total accuracy of  69.19999999999999 %
+--Considering removing feature number  14  gets us a total accuracy of  69.8 %
+--Considering removing feature number  13  gets us a total accuracy of  69.1 %
+--Considering removing feature number  12  gets us a total accuracy of  68.7 %
+--Considering removing feature number  11  gets us a total accuracy of  69.5 %
+--Considering removing feature number  10  gets us a total accuracy of  69.3 %
+--Considering removing feature number  9  gets us a total accuracy of  69.3 %
+--Considering removing feature number  8  gets us a total accuracy of  69.8 %
+--Considering removing feature number  7  gets us a total accuracy of  69.89999999999999 %
+--Considering removing feature number  6  gets us a total accuracy of  70.19999999999999 %
+--Considering removing feature number  5  gets us a total accuracy of  68.8 %
+--Considering removing feature number  4  gets us a total accuracy of  69.3 %
+--Considering removing feature number  3  gets us a total accuracy of  68.30000000000001 %
+--Considering removing feature number  2  gets us a total accuracy of  68.7 %
+--Considering removing feature number  1  gets us a total accuracy of  70.3 %
+
+On level  40  feature { 21 } was removed from current set
+Current Set of Features:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]  with accuracy of  70.39999999999999 %
+---------------------------------------------
+On level  39  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  70.7 %
+--Considering removing feature number  39  gets us a total accuracy of  69.5 %
+--Considering removing feature number  38  gets us a total accuracy of  69.69999999999999 %
+--Considering removing feature number  37  gets us a total accuracy of  69.89999999999999 %
+--Considering removing feature number  36  gets us a total accuracy of  69.89999999999999 %
+--Considering removing feature number  35  gets us a total accuracy of  68.8 %
+--Considering removing feature number  34  gets us a total accuracy of  70.7 %
+--Considering removing feature number  33  gets us a total accuracy of  71.3 %
+--Considering removing feature number  32  gets us a total accuracy of  70.7 %
+--Considering removing feature number  31  gets us a total accuracy of  69.1 %
+--Considering removing feature number  30  gets us a total accuracy of  69.39999999999999 %
+--Considering removing feature number  29  gets us a total accuracy of  71.0 %
+--Considering removing feature number  28  gets us a total accuracy of  68.8 %
+--Considering removing feature number  27  gets us a total accuracy of  70.39999999999999 %
+--Considering removing feature number  26  gets us a total accuracy of  69.39999999999999 %
+--Considering removing feature number  25  gets us a total accuracy of  68.4 %
+--Considering removing feature number  24  gets us a total accuracy of  68.89999999999999 %
+--Considering removing feature number  23  gets us a total accuracy of  69.8 %
+--Considering removing feature number  22  gets us a total accuracy of  70.8 %
+--Considering removing feature number  20  gets us a total accuracy of  69.6 %
+--Considering removing feature number  19  gets us a total accuracy of  69.89999999999999 %
+--Considering removing feature number  18  gets us a total accuracy of  68.30000000000001 %
+--Considering removing feature number  17  gets us a total accuracy of  69.3 %
+--Considering removing feature number  16  gets us a total accuracy of  70.8 %
+--Considering removing feature number  15  gets us a total accuracy of  70.39999999999999 %
+--Considering removing feature number  14  gets us a total accuracy of  70.39999999999999 %
+--Considering removing feature number  13  gets us a total accuracy of  69.3 %
+--Considering removing feature number  12  gets us a total accuracy of  69.3 %
+--Considering removing feature number  11  gets us a total accuracy of  70.6 %
+--Considering removing feature number  10  gets us a total accuracy of  70.6 %
+--Considering removing feature number  9  gets us a total accuracy of  70.3 %
+--Considering removing feature number  8  gets us a total accuracy of  69.69999999999999 %
+--Considering removing feature number  7  gets us a total accuracy of  70.89999999999999 %
+--Considering removing feature number  6  gets us a total accuracy of  71.39999999999999 %
+--Considering removing feature number  5  gets us a total accuracy of  69.5 %
+--Considering removing feature number  4  gets us a total accuracy of  70.0 %
+--Considering removing feature number  3  gets us a total accuracy of  68.30000000000001 %
+--Considering removing feature number  2  gets us a total accuracy of  69.6 %
+--Considering removing feature number  1  gets us a total accuracy of  71.1 %
+
+On level  39  feature { 6 } was removed from current set
+Current Set of Features:  [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]  with accuracy of  71.39999999999999 %
+---------------------------------------------
+On level  38  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  69.6 %
+--Considering removing feature number  39  gets us a total accuracy of  69.8 %
+--Considering removing feature number  38  gets us a total accuracy of  70.39999999999999 %
+--Considering removing feature number  37  gets us a total accuracy of  69.8 %
+--Considering removing feature number  36  gets us a total accuracy of  69.8 %
+--Considering removing feature number  35  gets us a total accuracy of  69.1 %
+--Considering removing feature number  34  gets us a total accuracy of  70.89999999999999 %
+--Considering removing feature number  33  gets us a total accuracy of  71.7 %
+--Considering removing feature number  32  gets us a total accuracy of  71.6 %
+--Considering removing feature number  31  gets us a total accuracy of  70.0 %
+--Considering removing feature number  30  gets us a total accuracy of  70.5 %
+--Considering removing feature number  29  gets us a total accuracy of  70.6 %
+--Considering removing feature number  28  gets us a total accuracy of  69.69999999999999 %
+--Considering removing feature number  27  gets us a total accuracy of  70.8 %
+--Considering removing feature number  26  gets us a total accuracy of  70.6 %
+--Considering removing feature number  25  gets us a total accuracy of  70.19999999999999 %
+--Considering removing feature number  24  gets us a total accuracy of  69.0 %
+--Considering removing feature number  23  gets us a total accuracy of  71.1 %
+--Considering removing feature number  22  gets us a total accuracy of  70.19999999999999 %
+--Considering removing feature number  20  gets us a total accuracy of  70.3 %
+--Considering removing feature number  19  gets us a total accuracy of  69.69999999999999 %
+--Considering removing feature number  18  gets us a total accuracy of  69.69999999999999 %
+--Considering removing feature number  17  gets us a total accuracy of  70.3 %
+--Considering removing feature number  16  gets us a total accuracy of  70.3 %
+--Considering removing feature number  15  gets us a total accuracy of  70.3 %
+--Considering removing feature number  14  gets us a total accuracy of  70.6 %
+--Considering removing feature number  13  gets us a total accuracy of  71.0 %
+--Considering removing feature number  12  gets us a total accuracy of  69.5 %
+--Considering removing feature number  11  gets us a total accuracy of  71.1 %
+--Considering removing feature number  10  gets us a total accuracy of  69.5 %
+--Considering removing feature number  9  gets us a total accuracy of  69.6 %
+--Considering removing feature number  8  gets us a total accuracy of  70.39999999999999 %
+--Considering removing feature number  7  gets us a total accuracy of  70.1 %
+--Considering removing feature number  5  gets us a total accuracy of  70.6 %
+--Considering removing feature number  4  gets us a total accuracy of  70.6 %
+--Considering removing feature number  3  gets us a total accuracy of  69.69999999999999 %
+--Considering removing feature number  2  gets us a total accuracy of  70.5 %
+--Considering removing feature number  1  gets us a total accuracy of  71.5 %
+
+On level  38  feature { 33 } was removed from current set
+Current Set of Features:  [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40]  with accuracy of  71.7 %
+---------------------------------------------
+On level  37  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  71.1 %
+--Considering removing feature number  39  gets us a total accuracy of  71.6 %
+--Considering removing feature number  38  gets us a total accuracy of  72.0 %
+--Considering removing feature number  37  gets us a total accuracy of  71.0 %
+--Considering removing feature number  36  gets us a total accuracy of  70.6 %
+--Considering removing feature number  35  gets us a total accuracy of  70.3 %
+--Considering removing feature number  34  gets us a total accuracy of  71.1 %
+--Considering removing feature number  32  gets us a total accuracy of  71.3 %
+--Considering removing feature number  31  gets us a total accuracy of  71.6 %
+--Considering removing feature number  30  gets us a total accuracy of  70.6 %
+--Considering removing feature number  29  gets us a total accuracy of  71.7 %
+--Considering removing feature number  28  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  27  gets us a total accuracy of  70.8 %
+--Considering removing feature number  26  gets us a total accuracy of  71.1 %
+--Considering removing feature number  25  gets us a total accuracy of  71.6 %
+--Considering removing feature number  24  gets us a total accuracy of  69.8 %
+--Considering removing feature number  23  gets us a total accuracy of  72.0 %
+--Considering removing feature number  22  gets us a total accuracy of  69.8 %
+--Considering removing feature number  20  gets us a total accuracy of  70.7 %
+--Considering removing feature number  19  gets us a total accuracy of  70.7 %
+--Considering removing feature number  18  gets us a total accuracy of  70.7 %
+--Considering removing feature number  17  gets us a total accuracy of  71.5 %
+--Considering removing feature number  16  gets us a total accuracy of  72.6 %
+--Considering removing feature number  15  gets us a total accuracy of  71.6 %
+--Considering removing feature number  14  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  13  gets us a total accuracy of  72.0 %
+--Considering removing feature number  12  gets us a total accuracy of  71.6 %
+--Considering removing feature number  11  gets us a total accuracy of  71.8 %
+--Considering removing feature number  10  gets us a total accuracy of  69.89999999999999 %
+--Considering removing feature number  9  gets us a total accuracy of  71.8 %
+--Considering removing feature number  8  gets us a total accuracy of  71.6 %
+--Considering removing feature number  7  gets us a total accuracy of  71.2 %
+--Considering removing feature number  5  gets us a total accuracy of  69.89999999999999 %
+--Considering removing feature number  4  gets us a total accuracy of  71.39999999999999 %
+--Considering removing feature number  3  gets us a total accuracy of  69.5 %
+--Considering removing feature number  2  gets us a total accuracy of  71.2 %
+--Considering removing feature number  1  gets us a total accuracy of  72.0 %
+
+On level  37  feature { 16 } was removed from current set
+Current Set of Features:  [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40]  with accuracy of  72.6 %
+---------------------------------------------
+On level  36  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  39  gets us a total accuracy of  72.3 %
+--Considering removing feature number  38  gets us a total accuracy of  72.6 %
+--Considering removing feature number  37  gets us a total accuracy of  72.2 %
+--Considering removing feature number  36  gets us a total accuracy of  71.8 %
+--Considering removing feature number  35  gets us a total accuracy of  71.0 %
+--Considering removing feature number  34  gets us a total accuracy of  73.0 %
+--Considering removing feature number  32  gets us a total accuracy of  73.5 %
+--Considering removing feature number  31  gets us a total accuracy of  72.2 %
+--Considering removing feature number  30  gets us a total accuracy of  71.7 %
+--Considering removing feature number  29  gets us a total accuracy of  71.39999999999999 %
+--Considering removing feature number  28  gets us a total accuracy of  72.1 %
+--Considering removing feature number  27  gets us a total accuracy of  71.7 %
+--Considering removing feature number  26  gets us a total accuracy of  72.0 %
+--Considering removing feature number  25  gets us a total accuracy of  71.3 %
+--Considering removing feature number  24  gets us a total accuracy of  71.7 %
+--Considering removing feature number  23  gets us a total accuracy of  71.5 %
+--Considering removing feature number  22  gets us a total accuracy of  70.8 %
+--Considering removing feature number  20  gets us a total accuracy of  70.89999999999999 %
+--Considering removing feature number  19  gets us a total accuracy of  72.2 %
+--Considering removing feature number  18  gets us a total accuracy of  71.6 %
+--Considering removing feature number  17  gets us a total accuracy of  72.5 %
+--Considering removing feature number  15  gets us a total accuracy of  72.0 %
+--Considering removing feature number  14  gets us a total accuracy of  70.89999999999999 %
+--Considering removing feature number  13  gets us a total accuracy of  71.7 %
+--Considering removing feature number  12  gets us a total accuracy of  71.5 %
+--Considering removing feature number  11  gets us a total accuracy of  71.8 %
+--Considering removing feature number  10  gets us a total accuracy of  71.39999999999999 %
+--Considering removing feature number  9  gets us a total accuracy of  72.0 %
+--Considering removing feature number  8  gets us a total accuracy of  72.2 %
+--Considering removing feature number  7  gets us a total accuracy of  72.2 %
+--Considering removing feature number  5  gets us a total accuracy of  71.3 %
+--Considering removing feature number  4  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  3  gets us a total accuracy of  70.19999999999999 %
+--Considering removing feature number  2  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  1  gets us a total accuracy of  71.89999999999999 %
+
+On level  36  feature { 32 } was removed from current set
+Current Set of Features:  [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34, 35, 36, 37, 38, 39, 40]  with accuracy of  73.5 %
+---------------------------------------------
+On level  35  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.7 %
+--Considering removing feature number  39  gets us a total accuracy of  73.4 %
+--Considering removing feature number  38  gets us a total accuracy of  73.7 %
+--Considering removing feature number  37  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  36  gets us a total accuracy of  71.2 %
+--Considering removing feature number  35  gets us a total accuracy of  70.3 %
+--Considering removing feature number  34  gets us a total accuracy of  73.1 %
+--Considering removing feature number  31  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  30  gets us a total accuracy of  73.0 %
+--Considering removing feature number  29  gets us a total accuracy of  72.6 %
+--Considering removing feature number  28  gets us a total accuracy of  71.3 %
+--Considering removing feature number  27  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  26  gets us a total accuracy of  72.5 %
+--Considering removing feature number  25  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  24  gets us a total accuracy of  72.3 %
+--Considering removing feature number  23  gets us a total accuracy of  73.1 %
+--Considering removing feature number  22  gets us a total accuracy of  72.2 %
+--Considering removing feature number  20  gets us a total accuracy of  72.3 %
+--Considering removing feature number  19  gets us a total accuracy of  71.7 %
+--Considering removing feature number  18  gets us a total accuracy of  72.5 %
+--Considering removing feature number  17  gets us a total accuracy of  72.6 %
+--Considering removing feature number  15  gets us a total accuracy of  73.1 %
+--Considering removing feature number  14  gets us a total accuracy of  72.5 %
+--Considering removing feature number  13  gets us a total accuracy of  72.6 %
+--Considering removing feature number  12  gets us a total accuracy of  71.6 %
+
+
+--Considering removing feature number  11  gets us a total accuracy of  72.2 %
+--Considering removing feature number  10  gets us a total accuracy of  72.5 %
+--Considering removing feature number  9  gets us a total accuracy of  72.5 %
+--Considering removing feature number  8  gets us a total accuracy of  73.5 %
+--Considering removing feature number  7  gets us a total accuracy of  73.7 %
+--Considering removing feature number  5  gets us a total accuracy of  71.1 %
+--Considering removing feature number  4  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  3  gets us a total accuracy of  71.0 %
+--Considering removing feature number  2  gets us a total accuracy of  72.2 %
+--Considering removing feature number  1  gets us a total accuracy of  72.8 %
+
+On level  35  feature { 38 } was removed from current set
+Current Set of Features:  [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34, 35, 36, 37, 39, 40]  with accuracy of  73.7 %
+---------------------------------------------
+On level  34  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  39  gets us a total accuracy of  72.3 %
+--Considering removing feature number  37  gets us a total accuracy of  72.3 %
+--Considering removing feature number  36  gets us a total accuracy of  71.7 %
+--Considering removing feature number  35  gets us a total accuracy of  70.3 %
+--Considering removing feature number  34  gets us a total accuracy of  72.8 %
+--Considering removing feature number  31  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  30  gets us a total accuracy of  72.6 %
+--Considering removing feature number  29  gets us a total accuracy of  73.3 %
+--Considering removing feature number  28  gets us a total accuracy of  72.2 %
+--Considering removing feature number  27  gets us a total accuracy of  71.7 %
+--Considering removing feature number  26  gets us a total accuracy of  72.5 %
+--Considering removing feature number  25  gets us a total accuracy of  73.2 %
+--Considering removing feature number  24  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  23  gets us a total accuracy of  72.6 %
+--Considering removing feature number  22  gets us a total accuracy of  72.5 %
+--Considering removing feature number  20  gets us a total accuracy of  71.6 %
+--Considering removing feature number  19  gets us a total accuracy of  71.6 %
+--Considering removing feature number  18  gets us a total accuracy of  72.1 %
+--Considering removing feature number  17  gets us a total accuracy of  73.4 %
+--Considering removing feature number  15  gets us a total accuracy of  72.8 %
+--Considering removing feature number  14  gets us a total accuracy of  73.4 %
+--Considering removing feature number  13  gets us a total accuracy of  73.0 %
+--Considering removing feature number  12  gets us a total accuracy of  71.6 %
+--Considering removing feature number  11  gets us a total accuracy of  71.8 %
+--Considering removing feature number  10  gets us a total accuracy of  72.3 %
+--Considering removing feature number  9  gets us a total accuracy of  72.8 %
+--Considering removing feature number  8  gets us a total accuracy of  73.7 %
+--Considering removing feature number  7  gets us a total accuracy of  73.1 %
+--Considering removing feature number  5  gets us a total accuracy of  72.0 %
+--Considering removing feature number  4  gets us a total accuracy of  73.3 %
+--Considering removing feature number  3  gets us a total accuracy of  70.89999999999999 %
+--Considering removing feature number  2  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  1  gets us a total accuracy of  73.2 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  34  feature { 8 } was removed from current set
+Current Set of Features:  [1, 2, 3, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34, 35, 36, 37, 39, 40]  with accuracy of  73.7 %
+---------------------------------------------
+On level  33  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.9 %
+--Considering removing feature number  39  gets us a total accuracy of  72.5 %
+--Considering removing feature number  37  gets us a total accuracy of  73.1 %
+--Considering removing feature number  36  gets us a total accuracy of  73.3 %
+--Considering removing feature number  35  gets us a total accuracy of  71.5 %
+--Considering removing feature number  34  gets us a total accuracy of  72.1 %
+--Considering removing feature number  31  gets us a total accuracy of  73.1 %
+--Considering removing feature number  30  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  29  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  28  gets us a total accuracy of  72.0 %
+--Considering removing feature number  27  gets us a total accuracy of  72.5 %
+--Considering removing feature number  26  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  25  gets us a total accuracy of  72.5 %
+--Considering removing feature number  24  gets us a total accuracy of  72.5 %
+--Considering removing feature number  23  gets us a total accuracy of  73.4 %
+--Considering removing feature number  22  gets us a total accuracy of  72.8 %
+--Considering removing feature number  20  gets us a total accuracy of  71.3 %
+--Considering removing feature number  19  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  18  gets us a total accuracy of  73.2 %
+--Considering removing feature number  17  gets us a total accuracy of  73.2 %
+--Considering removing feature number  15  gets us a total accuracy of  73.0 %
+--Considering removing feature number  14  gets us a total accuracy of  73.8 %
+--Considering removing feature number  13  gets us a total accuracy of  74.0 %
+--Considering removing feature number  12  gets us a total accuracy of  71.6 %
+--Considering removing feature number  11  gets us a total accuracy of  72.1 %
+--Considering removing feature number  10  gets us a total accuracy of  73.2 %
+--Considering removing feature number  9  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  7  gets us a total accuracy of  73.9 %
+--Considering removing feature number  5  gets us a total accuracy of  72.3 %
+--Considering removing feature number  4  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  3  gets us a total accuracy of  71.7 %
+--Considering removing feature number  2  gets us a total accuracy of  73.2 %
+--Considering removing feature number  1  gets us a total accuracy of  73.5 %
+
+On level  33  feature { 13 } was removed from current set
+Current Set of Features:  [1, 2, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34, 35, 36, 37, 39, 40]  with accuracy of  74.0 %
+---------------------------------------------
+On level  32  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.3 %
+--Considering removing feature number  39  gets us a total accuracy of  73.7 %
+--Considering removing feature number  37  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  36  gets us a total accuracy of  72.6 %
+--Considering removing feature number  35  gets us a total accuracy of  71.8 %
+--Considering removing feature number  34  gets us a total accuracy of  72.6 %
+--Considering removing feature number  31  gets us a total accuracy of  73.0 %
+--Considering removing feature number  30  gets us a total accuracy of  72.2 %
+--Considering removing feature number  29  gets us a total accuracy of  73.2 %
+--Considering removing feature number  28  gets us a total accuracy of  72.7 %
+--Considering removing feature number  27  gets us a total accuracy of  74.0 %
+--Considering removing feature number  26  gets us a total accuracy of  73.8 %
+--Considering removing feature number  25  gets us a total accuracy of  73.2 %
+--Considering removing feature number  24  gets us a total accuracy of  71.6 %
+--Considering removing feature number  23  gets us a total accuracy of  73.8 %
+--Considering removing feature number  22  gets us a total accuracy of  72.0 %
+--Considering removing feature number  20  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  19  gets us a total accuracy of  71.2 %
+--Considering removing feature number  18  gets us a total accuracy of  71.5 %
+--Considering removing feature number  17  gets us a total accuracy of  74.0 %
+--Considering removing feature number  15  gets us a total accuracy of  73.1 %
+--Considering removing feature number  14  gets us a total accuracy of  73.4 %
+--Considering removing feature number  12  gets us a total accuracy of  71.0 %
+--Considering removing feature number  11  gets us a total accuracy of  73.2 %
+--Considering removing feature number  10  gets us a total accuracy of  72.2 %
+--Considering removing feature number  9  gets us a total accuracy of  71.6 %
+--Considering removing feature number  7  gets us a total accuracy of  73.8 %
+--Considering removing feature number  5  gets us a total accuracy of  71.3 %
+--Considering removing feature number  4  gets us a total accuracy of  72.8 %
+--Considering removing feature number  3  gets us a total accuracy of  72.0 %
+--Considering removing feature number  2  gets us a total accuracy of  72.6 %
+--Considering removing feature number  1  gets us a total accuracy of  73.6 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  32  feature { 27 } was removed from current set
+Current Set of Features:  [1, 2, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 28, 29, 30, 31, 34, 35, 36, 37, 39, 40]  with accuracy of  74.0 %
+---------------------------------------------
+On level  31  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  70.8 %
+--Considering removing feature number  39  gets us a total accuracy of  73.1 %
+--Considering removing feature number  37  gets us a total accuracy of  72.1 %
+--Considering removing feature number  36  gets us a total accuracy of  72.5 %
+--Considering removing feature number  35  gets us a total accuracy of  71.7 %
+--Considering removing feature number  34  gets us a total accuracy of  73.2 %
+--Considering removing feature number  31  gets us a total accuracy of  71.8 %
+--Considering removing feature number  30  gets us a total accuracy of  72.1 %
+--Considering removing feature number  29  gets us a total accuracy of  73.1 %
+--Considering removing feature number  28  gets us a total accuracy of  73.2 %
+--Considering removing feature number  26  gets us a total accuracy of  73.0 %
+--Considering removing feature number  25  gets us a total accuracy of  72.2 %
+--Considering removing feature number  24  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  23  gets us a total accuracy of  73.1 %
+--Considering removing feature number  22  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  20  gets us a total accuracy of  73.2 %
+--Considering removing feature number  19  gets us a total accuracy of  70.6 %
+--Considering removing feature number  18  gets us a total accuracy of  71.8 %
+--Considering removing feature number  17  gets us a total accuracy of  72.8 %
+--Considering removing feature number  15  gets us a total accuracy of  72.5 %
+--Considering removing feature number  14  gets us a total accuracy of  73.1 %
+--Considering removing feature number  12  gets us a total accuracy of  71.8 %
+--Considering removing feature number  11  gets us a total accuracy of  71.6 %
+--Considering removing feature number  10  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  9  gets us a total accuracy of  71.3 %
+--Considering removing feature number  7  gets us a total accuracy of  73.4 %
+--Considering removing feature number  5  gets us a total accuracy of  71.6 %
+--Considering removing feature number  4  gets us a total accuracy of  73.4 %
+--Considering removing feature number  3  gets us a total accuracy of  73.3 %
+--Considering removing feature number  2  gets us a total accuracy of  73.1 %
+--Considering removing feature number  1  gets us a total accuracy of  73.7 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  31  feature { 1 } was removed from current set
+Current Set of Features:  [2, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 28, 29, 30, 31, 34, 35, 36, 37, 39, 40]  with accuracy of  73.7 %
+---------------------------------------------
+On level  30  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.1 %
+--Considering removing feature number  39  gets us a total accuracy of  73.5 %
+--Considering removing feature number  37  gets us a total accuracy of  73.4 %
+--Considering removing feature number  36  gets us a total accuracy of  72.2 %
+--Considering removing feature number  35  gets us a total accuracy of  72.1 %
+--Considering removing feature number  34  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  31  gets us a total accuracy of  73.1 %
+--Considering removing feature number  30  gets us a total accuracy of  72.0 %
+--Considering removing feature number  29  gets us a total accuracy of  74.2 %
+--Considering removing feature number  28  gets us a total accuracy of  73.0 %
+--Considering removing feature number  26  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  25  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  24  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  23  gets us a total accuracy of  74.0 %
+--Considering removing feature number  22  gets us a total accuracy of  72.6 %
+--Considering removing feature number  20  gets us a total accuracy of  72.8 %
+--Considering removing feature number  19  gets us a total accuracy of  70.89999999999999 %
+--Considering removing feature number  18  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  17  gets us a total accuracy of  73.2 %
+--Considering removing feature number  15  gets us a total accuracy of  72.2 %
+--Considering removing feature number  14  gets us a total accuracy of  74.1 %
+--Considering removing feature number  12  gets us a total accuracy of  71.8 %
+--Considering removing feature number  11  gets us a total accuracy of  72.3 %
+--Considering removing feature number  10  gets us a total accuracy of  73.6 %
+--Considering removing feature number  9  gets us a total accuracy of  72.5 %
+--Considering removing feature number  7  gets us a total accuracy of  73.2 %
+--Considering removing feature number  5  gets us a total accuracy of  72.2 %
+--Considering removing feature number  4  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  3  gets us a total accuracy of  72.2 %
+--Considering removing feature number  2  gets us a total accuracy of  73.7 %
+
+On level  30  feature { 29 } was removed from current set
+Current Set of Features:  [2, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 28, 30, 31, 34, 35, 36, 37, 39, 40]  with accuracy of  74.2 %
+---------------------------------------------
+On level  29  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.3 %
+--Considering removing feature number  39  gets us a total accuracy of  74.3 %
+--Considering removing feature number  37  gets us a total accuracy of  73.3 %
+--Considering removing feature number  36  gets us a total accuracy of  71.6 %
+--Considering removing feature number  35  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  34  gets us a total accuracy of  73.8 %
+--Considering removing feature number  31  gets us a total accuracy of  73.9 %
+--Considering removing feature number  30  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  28  gets us a total accuracy of  73.2 %
+--Considering removing feature number  26  gets us a total accuracy of  73.3 %
+--Considering removing feature number  25  gets us a total accuracy of  73.3 %
+--Considering removing feature number  24  gets us a total accuracy of  73.6 %
+--Considering removing feature number  23  gets us a total accuracy of  74.9 %
+--Considering removing feature number  22  gets us a total accuracy of  74.4 %
+--Considering removing feature number  20  gets us a total accuracy of  73.5 %
+--Considering removing feature number  19  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  18  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  17  gets us a total accuracy of  72.3 %
+--Considering removing feature number  15  gets us a total accuracy of  72.8 %
+--Considering removing feature number  14  gets us a total accuracy of  74.7 %
+--Considering removing feature number  12  gets us a total accuracy of  73.3 %
+--Considering removing feature number  11  gets us a total accuracy of  72.8 %
+--Considering removing feature number  10  gets us a total accuracy of  74.9 %
+--Considering removing feature number  9  gets us a total accuracy of  71.8 %
+--Considering removing feature number  7  gets us a total accuracy of  73.1 %
+--Considering removing feature number  5  gets us a total accuracy of  73.6 %
+--Considering removing feature number  4  gets us a total accuracy of  74.0 %
+--Considering removing feature number  3  gets us a total accuracy of  74.0 %
+--Considering removing feature number  2  gets us a total accuracy of  73.8 %
+
+On level  29  feature { 23 } was removed from current set
+Current Set of Features:  [2, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 22, 24, 25, 26, 28, 30, 31, 34, 35, 36, 37, 39, 40]  with accuracy of  74.9 %
+---------------------------------------------
+On level  28  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.8 %
+--Considering removing feature number  39  gets us a total accuracy of  74.1 %
+--Considering removing feature number  37  gets us a total accuracy of  73.7 %
+--Considering removing feature number  36  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  35  gets us a total accuracy of  72.5 %
+--Considering removing feature number  34  gets us a total accuracy of  74.0 %
+--Considering removing feature number  31  gets us a total accuracy of  74.2 %
+--Considering removing feature number  30  gets us a total accuracy of  74.1 %
+--Considering removing feature number  28  gets us a total accuracy of  72.8 %
+--Considering removing feature number  26  gets us a total accuracy of  73.1 %
+--Considering removing feature number  25  gets us a total accuracy of  73.6 %
+--Considering removing feature number  24  gets us a total accuracy of  73.4 %
+--Considering removing feature number  22  gets us a total accuracy of  73.8 %
+--Considering removing feature number  20  gets us a total accuracy of  74.3 %
+--Considering removing feature number  19  gets us a total accuracy of  72.2 %
+--Considering removing feature number  18  gets us a total accuracy of  73.6 %
+--Considering removing feature number  17  gets us a total accuracy of  72.8 %
+--Considering removing feature number  15  gets us a total accuracy of  72.8 %
+--Considering removing feature number  14  gets us a total accuracy of  73.8 %
+--Considering removing feature number  12  gets us a total accuracy of  72.5 %
+--Considering removing feature number  11  gets us a total accuracy of  72.7 %
+--Considering removing feature number  10  gets us a total accuracy of  73.2 %
+--Considering removing feature number  9  gets us a total accuracy of  72.1 %
+--Considering removing feature number  7  gets us a total accuracy of  74.0 %
+--Considering removing feature number  5  gets us a total accuracy of  74.3 %
+--Considering removing feature number  4  gets us a total accuracy of  74.3 %
+--Considering removing feature number  3  gets us a total accuracy of  74.1 %
+--Considering removing feature number  2  gets us a total accuracy of  74.2 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  28  feature { 20 } was removed from current set
+Current Set of Features:  [2, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 22, 24, 25, 26, 28, 30, 31, 34, 35, 36, 37, 39, 40]  with accuracy of  74.3 %
+---------------------------------------------
+On level  27  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.2 %
+--Considering removing feature number  39  gets us a total accuracy of  74.2 %
+--Considering removing feature number  37  gets us a total accuracy of  73.6 %
+--Considering removing feature number  36  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  35  gets us a total accuracy of  73.0 %
+--Considering removing feature number  34  gets us a total accuracy of  74.5 %
+--Considering removing feature number  31  gets us a total accuracy of  73.8 %
+--Considering removing feature number  30  gets us a total accuracy of  73.4 %
+--Considering removing feature number  28  gets us a total accuracy of  74.1 %
+--Considering removing feature number  26  gets us a total accuracy of  72.8 %
+--Considering removing feature number  25  gets us a total accuracy of  73.7 %
+--Considering removing feature number  24  gets us a total accuracy of  72.1 %
+--Considering removing feature number  22  gets us a total accuracy of  74.2 %
+--Considering removing feature number  19  gets us a total accuracy of  71.39999999999999 %
+--Considering removing feature number  18  gets us a total accuracy of  73.5 %
+--Considering removing feature number  17  gets us a total accuracy of  73.2 %
+--Considering removing feature number  15  gets us a total accuracy of  72.1 %
+--Considering removing feature number  14  gets us a total accuracy of  73.7 %
+--Considering removing feature number  12  gets us a total accuracy of  73.1 %
+--Considering removing feature number  11  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  10  gets us a total accuracy of  72.8 %
+--Considering removing feature number  9  gets us a total accuracy of  72.2 %
+--Considering removing feature number  7  gets us a total accuracy of  73.7 %
+--Considering removing feature number  5  gets us a total accuracy of  73.5 %
+--Considering removing feature number  4  gets us a total accuracy of  73.8 %
+--Considering removing feature number  3  gets us a total accuracy of  73.1 %
+--Considering removing feature number  2  gets us a total accuracy of  73.6 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  27  feature { 34 } was removed from current set
+Current Set of Features:  [2, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 22, 24, 25, 26, 28, 30, 31, 35, 36, 37, 39, 40]  with accuracy of  74.5 %
+---------------------------------------------
+On level  26  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.5 %
+--Considering removing feature number  39  gets us a total accuracy of  73.8 %
+--Considering removing feature number  37  gets us a total accuracy of  74.0 %
+--Considering removing feature number  36  gets us a total accuracy of  72.3 %
+--Considering removing feature number  35  gets us a total accuracy of  73.0 %
+--Considering removing feature number  31  gets us a total accuracy of  74.4 %
+--Considering removing feature number  30  gets us a total accuracy of  73.1 %
+--Considering removing feature number  28  gets us a total accuracy of  73.9 %
+--Considering removing feature number  26  gets us a total accuracy of  73.0 %
+--Considering removing feature number  25  gets us a total accuracy of  72.8 %
+--Considering removing feature number  24  gets us a total accuracy of  72.6 %
+--Considering removing feature number  22  gets us a total accuracy of  73.6 %
+--Considering removing feature number  19  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  18  gets us a total accuracy of  74.4 %
+--Considering removing feature number  17  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  15  gets us a total accuracy of  72.3 %
+--Considering removing feature number  14  gets us a total accuracy of  73.9 %
+--Considering removing feature number  12  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  11  gets us a total accuracy of  73.0 %
+--Considering removing feature number  10  gets us a total accuracy of  73.7 %
+--Considering removing feature number  9  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  7  gets us a total accuracy of  73.9 %
+--Considering removing feature number  5  gets us a total accuracy of  73.2 %
+--Considering removing feature number  4  gets us a total accuracy of  73.8 %
+--Considering removing feature number  3  gets us a total accuracy of  73.2 %
+--Considering removing feature number  2  gets us a total accuracy of  74.0 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  26  feature { 31 } was removed from current set
+Current Set of Features:  [2, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 22, 24, 25, 26, 28, 30, 35, 36, 37, 39, 40]  with accuracy of  74.4 %
+---------------------------------------------
+On level  25  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.1 %
+--Considering removing feature number  39  gets us a total accuracy of  74.3 %
+--Considering removing feature number  37  gets us a total accuracy of  73.7 %
+--Considering removing feature number  36  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  35  gets us a total accuracy of  74.1 %
+--Considering removing feature number  30  gets us a total accuracy of  74.3 %
+--Considering removing feature number  28  gets us a total accuracy of  74.1 %
+--Considering removing feature number  26  gets us a total accuracy of  73.2 %
+--Considering removing feature number  25  gets us a total accuracy of  73.7 %
+--Considering removing feature number  24  gets us a total accuracy of  73.8 %
+--Considering removing feature number  22  gets us a total accuracy of  74.1 %
+--Considering removing feature number  19  gets us a total accuracy of  71.3 %
+--Considering removing feature number  18  gets us a total accuracy of  73.6 %
+--Considering removing feature number  17  gets us a total accuracy of  73.3 %
+--Considering removing feature number  15  gets us a total accuracy of  73.6 %
+--Considering removing feature number  14  gets us a total accuracy of  74.0 %
+--Considering removing feature number  12  gets us a total accuracy of  73.4 %
+--Considering removing feature number  11  gets us a total accuracy of  72.7 %
+--Considering removing feature number  10  gets us a total accuracy of  74.6 %
+--Considering removing feature number  9  gets us a total accuracy of  72.3 %
+--Considering removing feature number  7  gets us a total accuracy of  74.7 %
+--Considering removing feature number  5  gets us a total accuracy of  74.2 %
+--Considering removing feature number  4  gets us a total accuracy of  74.3 %
+--Considering removing feature number  3  gets us a total accuracy of  74.3 %
+--Considering removing feature number  2  gets us a total accuracy of  73.8 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  25  feature { 7 } was removed from current set
+Current Set of Features:  [2, 3, 4, 5, 9, 10, 11, 12, 14, 15, 17, 18, 19, 22, 24, 25, 26, 28, 30, 35, 36, 37, 39, 40]  with accuracy of  74.7 %
+---------------------------------------------
+On level  24  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.8 %
+--Considering removing feature number  39  gets us a total accuracy of  74.4 %
+--Considering removing feature number  37  gets us a total accuracy of  73.8 %
+--Considering removing feature number  36  gets us a total accuracy of  73.8 %
+--Considering removing feature number  35  gets us a total accuracy of  74.2 %
+--Considering removing feature number  30  gets us a total accuracy of  73.7 %
+--Considering removing feature number  28  gets us a total accuracy of  74.2 %
+--Considering removing feature number  26  gets us a total accuracy of  74.0 %
+--Considering removing feature number  25  gets us a total accuracy of  72.7 %
+--Considering removing feature number  24  gets us a total accuracy of  72.7 %
+--Considering removing feature number  22  gets us a total accuracy of  74.8 %
+--Considering removing feature number  19  gets us a total accuracy of  71.5 %
+--Considering removing feature number  18  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  17  gets us a total accuracy of  73.1 %
+--Considering removing feature number  15  gets us a total accuracy of  73.5 %
+--Considering removing feature number  14  gets us a total accuracy of  74.5 %
+--Considering removing feature number  12  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  11  gets us a total accuracy of  73.3 %
+--Considering removing feature number  10  gets us a total accuracy of  73.6 %
+--Considering removing feature number  9  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  5  gets us a total accuracy of  74.5 %
+--Considering removing feature number  4  gets us a total accuracy of  74.8 %
+--Considering removing feature number  3  gets us a total accuracy of  72.2 %
+--Considering removing feature number  2  gets us a total accuracy of  72.7 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  24  feature { 22 } was removed from current set
+Current Set of Features:  [2, 3, 4, 5, 9, 10, 11, 12, 14, 15, 17, 18, 19, 24, 25, 26, 28, 30, 35, 36, 37, 39, 40]  with accuracy of  74.8 %
+---------------------------------------------
+On level  23  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  74.1 %
+--Considering removing feature number  39  gets us a total accuracy of  73.4 %
+--Considering removing feature number  37  gets us a total accuracy of  73.3 %
+--Considering removing feature number  36  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  35  gets us a total accuracy of  72.8 %
+--Considering removing feature number  30  gets us a total accuracy of  72.5 %
+--Considering removing feature number  28  gets us a total accuracy of  73.8 %
+--Considering removing feature number  26  gets us a total accuracy of  73.4 %
+--Considering removing feature number  25  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  24  gets us a total accuracy of  71.8 %
+--Considering removing feature number  19  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  18  gets us a total accuracy of  73.2 %
+--Considering removing feature number  17  gets us a total accuracy of  73.0 %
+--Considering removing feature number  15  gets us a total accuracy of  73.8 %
+--Considering removing feature number  14  gets us a total accuracy of  73.5 %
+--Considering removing feature number  12  gets us a total accuracy of  73.1 %
+--Considering removing feature number  11  gets us a total accuracy of  73.0 %
+--Considering removing feature number  10  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  9  gets us a total accuracy of  72.0 %
+--Considering removing feature number  5  gets us a total accuracy of  74.3 %
+--Considering removing feature number  4  gets us a total accuracy of  73.9 %
+--Considering removing feature number  3  gets us a total accuracy of  71.1 %
+--Considering removing feature number  2  gets us a total accuracy of  72.5 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  23  feature { 5 } was removed from current set
+Current Set of Features:  [2, 3, 4, 9, 10, 11, 12, 14, 15, 17, 18, 19, 24, 25, 26, 28, 30, 35, 36, 37, 39, 40]  with accuracy of  74.3 %
+---------------------------------------------
+On level  22  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.7 %
+--Considering removing feature number  39  gets us a total accuracy of  74.1 %
+--Considering removing feature number  37  gets us a total accuracy of  74.5 %
+--Considering removing feature number  36  gets us a total accuracy of  73.5 %
+--Considering removing feature number  35  gets us a total accuracy of  72.2 %
+--Considering removing feature number  30  gets us a total accuracy of  72.7 %
+--Considering removing feature number  28  gets us a total accuracy of  73.0 %
+--Considering removing feature number  26  gets us a total accuracy of  74.0 %
+--Considering removing feature number  25  gets us a total accuracy of  73.4 %
+--Considering removing feature number  24  gets us a total accuracy of  72.0 %
+--Considering removing feature number  19  gets us a total accuracy of  72.0 %
+--Considering removing feature number  18  gets us a total accuracy of  73.3 %
+--Considering removing feature number  17  gets us a total accuracy of  73.7 %
+--Considering removing feature number  15  gets us a total accuracy of  73.2 %
+--Considering removing feature number  14  gets us a total accuracy of  72.5 %
+--Considering removing feature number  12  gets us a total accuracy of  72.0 %
+--Considering removing feature number  11  gets us a total accuracy of  73.5 %
+--Considering removing feature number  10  gets us a total accuracy of  73.1 %
+--Considering removing feature number  9  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  4  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  3  gets us a total accuracy of  72.8 %
+--Considering removing feature number  2  gets us a total accuracy of  72.5 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  22  feature { 37 } was removed from current set
+Current Set of Features:  [2, 3, 4, 9, 10, 11, 12, 14, 15, 17, 18, 19, 24, 25, 26, 28, 30, 35, 36, 39, 40]  with accuracy of  74.5 %
+---------------------------------------------
+On level  21  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.2 %
+--Considering removing feature number  39  gets us a total accuracy of  74.3 %
+--Considering removing feature number  36  gets us a total accuracy of  73.4 %
+--Considering removing feature number  35  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  30  gets us a total accuracy of  73.7 %
+--Considering removing feature number  28  gets us a total accuracy of  71.39999999999999 %
+--Considering removing feature number  26  gets us a total accuracy of  74.3 %
+--Considering removing feature number  25  gets us a total accuracy of  73.4 %
+--Considering removing feature number  24  gets us a total accuracy of  73.0 %
+--Considering removing feature number  19  gets us a total accuracy of  72.8 %
+--Considering removing feature number  18  gets us a total accuracy of  73.6 %
+--Considering removing feature number  17  gets us a total accuracy of  73.9 %
+--Considering removing feature number  15  gets us a total accuracy of  73.0 %
+--Considering removing feature number  14  gets us a total accuracy of  73.1 %
+--Considering removing feature number  12  gets us a total accuracy of  71.6 %
+--Considering removing feature number  11  gets us a total accuracy of  73.5 %
+--Considering removing feature number  10  gets us a total accuracy of  72.7 %
+--Considering removing feature number  9  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  4  gets us a total accuracy of  73.4 %
+--Considering removing feature number  3  gets us a total accuracy of  74.1 %
+--Considering removing feature number  2  gets us a total accuracy of  73.7 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  21  feature { 39 } was removed from current set
+Current Set of Features:  [2, 3, 4, 9, 10, 11, 12, 14, 15, 17, 18, 19, 24, 25, 26, 28, 30, 35, 36, 40]  with accuracy of  74.3 %
+---------------------------------------------
+On level  20  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.1 %
+--Considering removing feature number  36  gets us a total accuracy of  73.1 %
+--Considering removing feature number  35  gets us a total accuracy of  73.7 %
+--Considering removing feature number  30  gets us a total accuracy of  72.8 %
+--Considering removing feature number  28  gets us a total accuracy of  72.1 %
+--Considering removing feature number  26  gets us a total accuracy of  74.1 %
+--Considering removing feature number  25  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  24  gets us a total accuracy of  73.5 %
+--Considering removing feature number  19  gets us a total accuracy of  72.3 %
+--Considering removing feature number  18  gets us a total accuracy of  73.6 %
+--Considering removing feature number  17  gets us a total accuracy of  73.3 %
+--Considering removing feature number  15  gets us a total accuracy of  71.8 %
+--Considering removing feature number  14  gets us a total accuracy of  72.5 %
+--Considering removing feature number  12  gets us a total accuracy of  72.2 %
+--Considering removing feature number  11  gets us a total accuracy of  73.1 %
+--Considering removing feature number  10  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  9  gets us a total accuracy of  72.6 %
+--Considering removing feature number  4  gets us a total accuracy of  74.0 %
+--Considering removing feature number  3  gets us a total accuracy of  72.7 %
+--Considering removing feature number  2  gets us a total accuracy of  72.7 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  20  feature { 26 } was removed from current set
+Current Set of Features:  [2, 3, 4, 9, 10, 11, 12, 14, 15, 17, 18, 19, 24, 25, 28, 30, 35, 36, 40]  with accuracy of  74.1 %
+---------------------------------------------
+On level  19  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.7 %
+--Considering removing feature number  36  gets us a total accuracy of  73.3 %
+--Considering removing feature number  35  gets us a total accuracy of  73.1 %
+--Considering removing feature number  30  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  28  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  25  gets us a total accuracy of  73.4 %
+--Considering removing feature number  24  gets us a total accuracy of  73.5 %
+--Considering removing feature number  19  gets us a total accuracy of  72.8 %
+--Considering removing feature number  18  gets us a total accuracy of  73.1 %
+--Considering removing feature number  17  gets us a total accuracy of  73.7 %
+--Considering removing feature number  15  gets us a total accuracy of  73.2 %
+--Considering removing feature number  14  gets us a total accuracy of  72.3 %
+--Considering removing feature number  12  gets us a total accuracy of  73.2 %
+--Considering removing feature number  11  gets us a total accuracy of  73.4 %
+--Considering removing feature number  10  gets us a total accuracy of  73.9 %
+--Considering removing feature number  9  gets us a total accuracy of  72.8 %
+--Considering removing feature number  4  gets us a total accuracy of  73.5 %
+--Considering removing feature number  3  gets us a total accuracy of  73.3 %
+--Considering removing feature number  2  gets us a total accuracy of  72.7 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  19  feature { 10 } was removed from current set
+Current Set of Features:  [2, 3, 4, 9, 11, 12, 14, 15, 17, 18, 19, 24, 25, 28, 30, 35, 36, 40]  with accuracy of  73.9 %
+---------------------------------------------
+On level  18  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.0 %
+--Considering removing feature number  36  gets us a total accuracy of  73.1 %
+--Considering removing feature number  35  gets us a total accuracy of  72.8 %
+--Considering removing feature number  30  gets us a total accuracy of  71.8 %
+--Considering removing feature number  28  gets us a total accuracy of  72.1 %
+--Considering removing feature number  25  gets us a total accuracy of  73.3 %
+--Considering removing feature number  24  gets us a total accuracy of  73.5 %
+--Considering removing feature number  19  gets us a total accuracy of  71.8 %
+--Considering removing feature number  18  gets us a total accuracy of  72.2 %
+--Considering removing feature number  17  gets us a total accuracy of  73.5 %
+--Considering removing feature number  15  gets us a total accuracy of  73.9 %
+--Considering removing feature number  14  gets us a total accuracy of  72.5 %
+--Considering removing feature number  12  gets us a total accuracy of  72.2 %
+--Considering removing feature number  11  gets us a total accuracy of  74.1 %
+--Considering removing feature number  9  gets us a total accuracy of  71.8 %
+--Considering removing feature number  4  gets us a total accuracy of  72.5 %
+--Considering removing feature number  3  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  2  gets us a total accuracy of  72.1 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  18  feature { 11 } was removed from current set
+Current Set of Features:  [2, 3, 4, 9, 12, 14, 15, 17, 18, 19, 24, 25, 28, 30, 35, 36, 40]  with accuracy of  74.1 %
+---------------------------------------------
+On level  17  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.7 %
+--Considering removing feature number  36  gets us a total accuracy of  74.2 %
+--Considering removing feature number  35  gets us a total accuracy of  72.3 %
+--Considering removing feature number  30  gets us a total accuracy of  70.89999999999999 %
+--Considering removing feature number  28  gets us a total accuracy of  71.5 %
+--Considering removing feature number  25  gets us a total accuracy of  73.0 %
+--Considering removing feature number  24  gets us a total accuracy of  73.9 %
+--Considering removing feature number  19  gets us a total accuracy of  73.5 %
+--Considering removing feature number  18  gets us a total accuracy of  73.0 %
+--Considering removing feature number  17  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  15  gets us a total accuracy of  74.6 %
+--Considering removing feature number  14  gets us a total accuracy of  72.8 %
+--Considering removing feature number  12  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  9  gets us a total accuracy of  73.1 %
+--Considering removing feature number  4  gets us a total accuracy of  73.7 %
+--Considering removing feature number  3  gets us a total accuracy of  72.1 %
+--Considering removing feature number  2  gets us a total accuracy of  73.6 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  17  feature { 15 } was removed from current set
+Current Set of Features:  [2, 3, 4, 9, 12, 14, 17, 18, 19, 24, 25, 28, 30, 35, 36, 40]  with accuracy of  74.6 %
+---------------------------------------------
+On level  16  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  36  gets us a total accuracy of  73.8 %
+--Considering removing feature number  35  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  30  gets us a total accuracy of  71.8 %
+--Considering removing feature number  28  gets us a total accuracy of  70.89999999999999 %
+--Considering removing feature number  25  gets us a total accuracy of  72.1 %
+--Considering removing feature number  24  gets us a total accuracy of  74.3 %
+--Considering removing feature number  19  gets us a total accuracy of  73.5 %
+--Considering removing feature number  18  gets us a total accuracy of  72.1 %
+--Considering removing feature number  17  gets us a total accuracy of  73.2 %
+--Considering removing feature number  14  gets us a total accuracy of  72.0 %
+--Considering removing feature number  12  gets us a total accuracy of  73.2 %
+--Considering removing feature number  9  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  4  gets us a total accuracy of  75.1 %
+--Considering removing feature number  3  gets us a total accuracy of  72.7 %
+--Considering removing feature number  2  gets us a total accuracy of  73.4 %
+
+On level  16  feature { 4 } was removed from current set
+Current Set of Features:  [2, 3, 9, 12, 14, 17, 18, 19, 24, 25, 28, 30, 35, 36, 40]  with accuracy of  75.1 %
+---------------------------------------------
+On level  15  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.1 %
+--Considering removing feature number  36  gets us a total accuracy of  73.8 %
+--Considering removing feature number  35  gets us a total accuracy of  72.1 %
+--Considering removing feature number  30  gets us a total accuracy of  72.1 %
+--Considering removing feature number  28  gets us a total accuracy of  71.1 %
+--Considering removing feature number  25  gets us a total accuracy of  73.6 %
+--Considering removing feature number  24  gets us a total accuracy of  75.4 %
+--Considering removing feature number  19  gets us a total accuracy of  73.0 %
+--Considering removing feature number  18  gets us a total accuracy of  73.7 %
+--Considering removing feature number  17  gets us a total accuracy of  73.5 %
+--Considering removing feature number  14  gets us a total accuracy of  71.7 %
+--Considering removing feature number  12  gets us a total accuracy of  73.5 %
+--Considering removing feature number  9  gets us a total accuracy of  72.6 %
+--Considering removing feature number  3  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  2  gets us a total accuracy of  73.3 %
+
+On level  15  feature { 24 } was removed from current set
+Current Set of Features:  [2, 3, 9, 12, 14, 17, 18, 19, 25, 28, 30, 35, 36, 40]  with accuracy of  75.4 %
+---------------------------------------------
+On level  14  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.0 %
+--Considering removing feature number  36  gets us a total accuracy of  73.5 %
+--Considering removing feature number  35  gets us a total accuracy of  71.8 %
+--Considering removing feature number  30  gets us a total accuracy of  73.4 %
+--Considering removing feature number  28  gets us a total accuracy of  73.2 %
+--Considering removing feature number  25  gets us a total accuracy of  72.7 %
+--Considering removing feature number  19  gets us a total accuracy of  72.7 %
+--Considering removing feature number  18  gets us a total accuracy of  73.9 %
+--Considering removing feature number  17  gets us a total accuracy of  73.8 %
+--Considering removing feature number  14  gets us a total accuracy of  72.3 %
+--Considering removing feature number  12  gets us a total accuracy of  72.3 %
+--Considering removing feature number  9  gets us a total accuracy of  73.6 %
+--Considering removing feature number  3  gets us a total accuracy of  72.3 %
+--Considering removing feature number  2  gets us a total accuracy of  72.1 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  14  feature { 18 } was removed from current set
+Current Set of Features:  [2, 3, 9, 12, 14, 17, 19, 25, 28, 30, 35, 36, 40]  with accuracy of  73.9 %
+---------------------------------------------
+On level  13  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  73.0 %
+--Considering removing feature number  36  gets us a total accuracy of  72.2 %
+--Considering removing feature number  35  gets us a total accuracy of  72.3 %
+--Considering removing feature number  30  gets us a total accuracy of  71.6 %
+--Considering removing feature number  28  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  25  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  19  gets us a total accuracy of  72.3 %
+--Considering removing feature number  17  gets us a total accuracy of  73.3 %
+--Considering removing feature number  14  gets us a total accuracy of  73.2 %
+--Considering removing feature number  12  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  9  gets us a total accuracy of  72.0 %
+--Considering removing feature number  3  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  2  gets us a total accuracy of  72.89999999999999 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  13  feature { 17 } was removed from current set
+Current Set of Features:  [2, 3, 9, 12, 14, 19, 25, 28, 30, 35, 36, 40]  with accuracy of  73.3 %
+---------------------------------------------
+On level  12  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.7 %
+--Considering removing feature number  36  gets us a total accuracy of  71.3 %
+--Considering removing feature number  35  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  30  gets us a total accuracy of  72.1 %
+--Considering removing feature number  28  gets us a total accuracy of  72.5 %
+--Considering removing feature number  25  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  19  gets us a total accuracy of  71.7 %
+--Considering removing feature number  14  gets us a total accuracy of  71.0 %
+--Considering removing feature number  12  gets us a total accuracy of  73.2 %
+--Considering removing feature number  9  gets us a total accuracy of  72.5 %
+--Considering removing feature number  3  gets us a total accuracy of  72.1 %
+--Considering removing feature number  2  gets us a total accuracy of  72.7 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  12  feature { 12 } was removed from current set
+Current Set of Features:  [2, 3, 9, 14, 19, 25, 28, 30, 35, 36, 40]  with accuracy of  73.2 %
+---------------------------------------------
+On level  11  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.3 %
+--Considering removing feature number  36  gets us a total accuracy of  70.3 %
+--Considering removing feature number  35  gets us a total accuracy of  71.0 %
+--Considering removing feature number  30  gets us a total accuracy of  71.5 %
+--Considering removing feature number  28  gets us a total accuracy of  72.2 %
+--Considering removing feature number  25  gets us a total accuracy of  72.7 %
+--Considering removing feature number  19  gets us a total accuracy of  71.1 %
+--Considering removing feature number  14  gets us a total accuracy of  70.8 %
+--Considering removing feature number  9  gets us a total accuracy of  71.7 %
+--Considering removing feature number  3  gets us a total accuracy of  70.6 %
+--Considering removing feature number  2  gets us a total accuracy of  72.2 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  11  feature { 25 } was removed from current set
+Current Set of Features:  [2, 3, 9, 14, 19, 28, 30, 35, 36, 40]  with accuracy of  72.7 %
+---------------------------------------------
+On level  10  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.0 %
+--Considering removing feature number  36  gets us a total accuracy of  71.39999999999999 %
+--Considering removing feature number  35  gets us a total accuracy of  72.7 %
+--Considering removing feature number  30  gets us a total accuracy of  71.1 %
+--Considering removing feature number  28  gets us a total accuracy of  73.4 %
+--Considering removing feature number  19  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  14  gets us a total accuracy of  73.6 %
+--Considering removing feature number  9  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  3  gets us a total accuracy of  70.19999999999999 %
+--Considering removing feature number  2  gets us a total accuracy of  71.3 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  10  feature { 14 } was removed from current set
+Current Set of Features:  [2, 3, 9, 19, 28, 30, 35, 36, 40]  with accuracy of  73.6 %
+---------------------------------------------
+On level  9  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  72.2 %
+--Considering removing feature number  36  gets us a total accuracy of  71.8 %
+--Considering removing feature number  35  gets us a total accuracy of  72.89999999999999 %
+--Considering removing feature number  30  gets us a total accuracy of  72.39999999999999 %
+--Considering removing feature number  28  gets us a total accuracy of  73.9 %
+--Considering removing feature number  19  gets us a total accuracy of  73.5 %
+--Considering removing feature number  9  gets us a total accuracy of  73.6 %
+--Considering removing feature number  3  gets us a total accuracy of  71.5 %
+--Considering removing feature number  2  gets us a total accuracy of  70.19999999999999 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  9  feature { 28 } was removed from current set
+Current Set of Features:  [2, 3, 9, 19, 30, 35, 36, 40]  with accuracy of  73.9 %
+---------------------------------------------
+On level  8  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  71.8 %
+--Considering removing feature number  36  gets us a total accuracy of  70.1 %
+--Considering removing feature number  35  gets us a total accuracy of  71.39999999999999 %
+--Considering removing feature number  30  gets us a total accuracy of  70.6 %
+--Considering removing feature number  19  gets us a total accuracy of  71.89999999999999 %
+--Considering removing feature number  9  gets us a total accuracy of  71.3 %
+--Considering removing feature number  3  gets us a total accuracy of  71.0 %
+--Considering removing feature number  2  gets us a total accuracy of  69.69999999999999 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  8  feature { 19 } was removed from current set
+Current Set of Features:  [2, 3, 9, 30, 35, 36, 40]  with accuracy of  71.89999999999999 %
+---------------------------------------------
+On level  7  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  69.5 %
+--Considering removing feature number  36  gets us a total accuracy of  71.5 %
+--Considering removing feature number  35  gets us a total accuracy of  70.8 %
+--Considering removing feature number  30  gets us a total accuracy of  70.1 %
+--Considering removing feature number  9  gets us a total accuracy of  69.8 %
+--Considering removing feature number  3  gets us a total accuracy of  69.3 %
+--Considering removing feature number  2  gets us a total accuracy of  70.7 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  7  feature { 36 } was removed from current set
+Current Set of Features:  [2, 3, 9, 30, 35, 40]  with accuracy of  71.5 %
+---------------------------------------------
+On level  6  of the search tree
+
+--Considering removing feature number  40  gets us a total accuracy of  71.5 %
+--Considering removing feature number  35  gets us a total accuracy of  69.1 %
+--Considering removing feature number  30  gets us a total accuracy of  69.6 %
+--Considering removing feature number  9  gets us a total accuracy of  70.1 %
+--Considering removing feature number  3  gets us a total accuracy of  68.5 %
+--Considering removing feature number  2  gets us a total accuracy of  69.89999999999999 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  6  feature { 40 } was removed from current set
+Current Set of Features:  [2, 3, 9, 30, 35]  with accuracy of  71.5 %
+---------------------------------------------
+On level  5  of the search tree
+
+--Considering removing feature number  35  gets us a total accuracy of  68.5 %
+--Considering removing feature number  30  gets us a total accuracy of  69.89999999999999 %
+--Considering removing feature number  9  gets us a total accuracy of  69.19999999999999 %
+--Considering removing feature number  3  gets us a total accuracy of  70.0 %
+--Considering removing feature number  2  gets us a total accuracy of  68.30000000000001 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  5  feature { 3 } was removed from current set
+Current Set of Features:  [2, 9, 30, 35]  with accuracy of  70.0 %
+---------------------------------------------
+On level  4  of the search tree
+
+--Considering removing feature number  35  gets us a total accuracy of  69.89999999999999 %
+--Considering removing feature number  30  gets us a total accuracy of  69.6 %
+--Considering removing feature number  9  gets us a total accuracy of  70.89999999999999 %
+--Considering removing feature number  2  gets us a total accuracy of  70.3 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  4  feature { 9 } was removed from current set
+Current Set of Features:  [2, 30, 35]  with accuracy of  70.89999999999999 %
+---------------------------------------------
+On level  3  of the search tree
+
+--Considering removing feature number  35  gets us a total accuracy of  69.6 %
+--Considering removing feature number  30  gets us a total accuracy of  72.2 %
+--Considering removing feature number  2  gets us a total accuracy of  69.39999999999999 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  3  feature { 30 } was removed from current set
+Current Set of Features:  [2, 35]  with accuracy of  72.2 %
+---------------------------------------------
+On level  2  of the search tree
+
+--Considering removing feature number  35  gets us a total accuracy of  71.0 %
+--Considering removing feature number  2  gets us a total accuracy of  69.89999999999999 %
+
+**Warning, Accuracy has decreased! Continuing search in case of local maxima**
+
+On level  2  feature { 35 } was removed from current set
+Current Set of Features:  [2]  with accuracy of  71.0 %
+---------------------------------------------
+On level  1  of the search tree
+
+Current Set of Features: [] with accuracy of  81.0 %
+---------------------------------------------
+Set  []  has the highest accuracy: 81.0
+Elapsed time: 5510.608 seconds
+
+Process finished with exit code 0
